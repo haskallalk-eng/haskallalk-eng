@@ -12,7 +12,7 @@ Ich verbinde Shopify, n8n und APIs zu Abläufen für Bestellungen, Lager, Versan
 | --- | --- | --- |
 | **Doctor K** | Shopify, Kasse und Bestand verbunden; Versand automatisiert; Klaviyo-Flows auf n8n übertragen | [Fallstudie](https://github.com/haskallalk-eng/haskallalk-eng/blob/main/case-studies/doctor-k.md) |
 | **Phonbot** | KI-Telefonassistent mit Agentenkonfiguration und Dashboard | [Code und Projektstand](https://github.com/haskallalk-eng/voice-agent-phonbot) |
-| **Musik-Automation** | Sechs E-Mail-Workflows für Artists und Producer, Kontaktsegmentierung und Content-Dashboard | [Fallstudie](https://github.com/haskallalk-eng/haskallalk-eng/blob/main/case-studies/music-automation.md) |
+| **Musikbusiness & Studio** | E-Mail-, DM- und Content-Automation; Verkaufs- und Buchungsfunnels; zentrale Wissensbasis mit Claude | [Fallstudie](https://github.com/haskallalk-eng/haskallalk-eng/blob/main/case-studies/music-automation.md) |
 | **Mindrails Supervisor** | Plugins und MCP-Werkzeuge für Claude Code und Codex | [Code, Screenshot und Offline-Demo](https://github.com/haskallalk-eng/mindrails-supervisor) |
 
 ## Direkt in die Umsetzung
