@@ -3,6 +3,9 @@
 
 Für den familiennahen Handelsbetrieb hinter Doctor K habe ich Shopify, Kasse, Lager und wiederkehrende Kundenkommunikation miteinander verbunden. Ziel war, manuelle Arbeit zu reduzieren und Online- und Ladenverkäufe in zusammenhängenden Abläufen zu bearbeiten.
 
+## Ausgangslage
+Online-Shop, Ladenverkauf, Versand und Kundenkommunikation sollten als zusammenhängender Prozess organisiert werden. Wiederkehrende manuelle Schritte waren der Ansatzpunkt für die Automatisierung.
+
 ## Mein Beitrag
 Mein Beitrag umfasst den Aufbau des Shopify-Shops, die Verbindung von Kasse und Bestand sowie interne Anwendungen und Automatisierungen. Bei der Entwicklung nutze ich KI-Unterstützung, unter anderem Claude Code. Ein Schwerpunkt war die Übertragung bestehender Klaviyo-Flows auf selbst gehostetes n8n.
 
@@ -33,7 +36,7 @@ Die Automatisierung verbindet einzelne Arbeitsschritte: Bestellungen, Bestandsve
 
 Online- und Ladenverkäufe sind über den zentralen Bestand verbunden. Versandvorbereitung, Etiketten und Kundeninformationen wurden in zusammenhängende Abläufe übertragen. Wiederkehrende E-Mail-Flows laufen über selbst gehostetes n8n.
 
-**Interne Schätzungen:** etwa drei Stunden tägliche Entlastung der Geschäftsführung und mindestens eine Stunde weniger Telefonaufwand. Die Zeitangaben können sich überschneiden und werden nicht addiert.
+**Interne Schätzungen:** etwa drei Stunden tägliche Entlastung der Geschäftsführung und mindestens eine Stunde weniger Telefonaufwand. Die Zeitangaben können sich überschneiden und werden nicht addiert. Eine standardisierte Zeiterfassung und ein nachvollziehbarer Vergleichszeitraum sind hier nicht veröffentlicht; die Angaben sind deshalb keine verifizierten Leistungskennzahlen.
 
 ## Was ich im Gespräch zeigen kann
 Ich erläutere gern den Bestellablauf, die Migration von Klaviyo zu n8n und meinen konkreten Anteil an den Integrationen. Geeignete Einblicke in interne Anwendungen können nach Abstimmung gezeigt werden.

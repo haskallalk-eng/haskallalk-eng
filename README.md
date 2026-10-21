@@ -1,52 +1,53 @@
 # Hassieb Kalla
 **KI-Implementierung · Prozessautomatisierung · E-Commerce**
 
-Ich verbinde Shopify, n8n und APIs zu Abläufen für Bestellungen, Lager, Versand und Kundenkommunikation. Dazu entwickle ich KI-Telefonassistenten und Werkzeuge für die Arbeit mit Coding-Agenten.
+Ich verbinde Shopify, n8n und APIs zu Abläufen für Bestellungen, Lager, Versand und Kundenkommunikation. Unter **MindRails** entwickle ich außerdem Voice Agents und Werkzeuge für die Arbeit mit Coding-Agenten.
 
-**Berlin · Voll- oder Teilzeit · hybrid oder remote**  
+**Berlin · Festanstellung · Voll- oder Teilzeit · hybrid oder remote · Start flexibel**  
 [Kontakt](mailto:info@mindrails.de) · [LinkedIn](https://www.linkedin.com/in/hassieb-kalla-mindrails/)
 
-## Ausgewählte Projekte
+## Projekte von MindRails
 
-| Projekt | Beitrag | Einblick |
-| --- | --- | --- |
-| **Doctor K** | Shopify, Kasse und Bestand verbunden; Versand automatisiert; Klaviyo-Flows auf n8n übertragen | [Fallstudie](https://github.com/haskallalk-eng/haskallalk-eng/blob/main/case-studies/doctor-k.md) |
-| **Phonbot** | KI-Telefonassistent mit Agentenkonfiguration und Dashboard | [Code und Projektstand](https://github.com/haskallalk-eng/voice-agent-phonbot) |
-| **Musikbusiness & Studio** | E-Mail-, DM- und Content-Automation; Verkaufs- und Buchungsfunnels; zentrale Wissensbasis mit Claude | [Fallstudie](https://github.com/haskallalk-eng/haskallalk-eng/blob/main/case-studies/music-automation.md) |
-| **Mindrails Supervisor** | Plugins und MCP-Werkzeuge für Claude Code und Codex | [Code, Screenshot und Offline-Demo](https://github.com/haskallalk-eng/mindrails-supervisor) |
+### Phonbot
+KI-Telefonassistent für kleine Unternehmen, mit konfigurierbaren Agenten und Dashboard. Mein Beitrag umfasst die KI-gestützte Entwicklung und die Verbindung von Telefonie, Agentenkonfiguration und Geschäftsabläufen.
 
-## Direkt in die Umsetzung
+[Projekt und Code](https://github.com/haskallalk-eng/voice-agent-phonbot) · [Technische Einstiegspunkte](https://github.com/haskallalk-eng/voice-agent-phonbot#code-gezielt-ansehen) · [Prüfbericht](https://github.com/haskallalk-eng/voice-agent-phonbot/blob/master/docs/portfolio-validation.md)
 
-- **Geschäftsprozesse:** [Doctor K](https://github.com/haskallalk-eng/haskallalk-eng/blob/main/case-studies/doctor-k.md) verbindet Shop, Bestand, Versand und Kundeninformation.
-- **Code:** [Phonbot: Einstiegspunkte](https://github.com/haskallalk-eng/voice-agent-phonbot#code-gezielt-ansehen) führen direkt zu API, Konfiguration und Dashboard.
-- **Ausprobieren:** Die [Supervisor-Offline-Demo](https://github.com/haskallalk-eng/mindrails-supervisor#try-the-free-offline-demo) zeigt die Entscheidungslogik mit synthetischen Beispielen und benötigt keinen API-Schlüssel.
+### MindRails Supervisor
+Plugins und MCP-Werkzeuge für Claude Code und Codex: Aufgabenfortschritt prüfen, wiederholte Arbeitsschritte erkennen und Hinweise zur Modellwahl geben.
 
-## Technische Nachweise
+[Projekt und Code](https://github.com/haskallalk-eng/mindrails-supervisor) · [Offline-Demo ohne API-Schlüssel](https://github.com/haskallalk-eng/mindrails-supervisor#try-the-free-offline-demo)
 
-Am 22. Oktober 2026 lokal geprüft; Befehle, Versionen und Grenzen sind dokumentiert:
+## Projekte aus der Praxis
 
-- [Phonbot-Prüfbericht](https://github.com/haskallalk-eng/voice-agent-phonbot/blob/master/docs/portfolio-validation.md): 1.745 API-Tests bestanden, dazu Pakettests, Typprüfung und Builds.
-- [Supervisor-Prüfbericht](https://github.com/haskallalk-eng/mindrails-supervisor/blob/main/docs/portfolio-validation.md): 132 Tests und 12 lokale MCP-Szenarien bestanden.
+**Doctor K · Handel und E-Commerce**  
+Shopify-Shop aufgebaut, Kasse und Bestand verbunden, Versand und Kunden-E-Mails automatisiert sowie Klaviyo-Flows auf selbst gehostetes n8n übertragen.  
+[Fallstudie: Ausgangslage, mein Beitrag und Ergebnis](case-studies/doctor-k.md)
 
-Die Tests belegen den beschriebenen Codeumfang. Sie ersetzen keinen vollständigen Live-Telefonietest; die Supervisor-Demo verwendet synthetische Beispiele.
+**Musikbusiness und Studio · Marketing und Betriebsabläufe**  
+E-Mail-, DM- und Content-Automation; Verkaufs- und Buchungsfunnels für Studio, Beats und Musikproduktion; zentrale Wissensbasis mit Claude und GitHub sowie eine gemeinsame Arbeitsumgebung fürs Team.  
+[Fallstudie: Workflows, Funnels und Zusammenarbeit](case-studies/music-automation.md)
+
+## So arbeite ich
+
+Meine Kenntnisse habe ich mir durch praktische Projekte erarbeitet. Bei der Entwicklung nutze ich Claude Code und weitere KI-Werkzeuge. Mein Schwerpunkt ist, Geschäftsprozesse zu verstehen, Systeme zu verbinden und die Umsetzung anhand konkreter Abläufe zu prüfen.
+
+Beruflich suche ich Aufgaben in **KI-Implementierung, Prozessautomatisierung, technischem Kunden-Onboarding oder E-Commerce**.
 
 <details>
-<summary>Phonbot: echter Einblick in die öffentliche Demo</summary>
+<summary>Technische Nachweise und Veröffentlichungsumfang</summary>
 
-![Öffentliche Phonbot-Oberfläche mit geöffnetem Salon-Demodialog](assets/phonbot-public-demo-20261022.jpg)
+Am **22. Oktober 2026** lokal geprüft:
 
-Aufnahme vom 22. Oktober 2026 auf [phonbot.de](https://phonbot.de/). Der Dialog wurde im Browser geöffnet. Er bietet einen fiktiven Salon mit Testkalender; diese Aufnahme ist kein Nachweis eines durchgeführten Telefongesprächs.
+- **Phonbot:** 1.745 API-Tests bestanden, zusätzlich Pakettests, Typprüfung und Builds. [Befehle und Prüfgrenzen](https://github.com/haskallalk-eng/voice-agent-phonbot/blob/master/docs/portfolio-validation.md).
+- **MindRails Supervisor:** 132 Tests und 12 lokale MCP-Szenarien bestanden. [Befehle und Prüfgrenzen](https://github.com/haskallalk-eng/mindrails-supervisor/blob/main/docs/portfolio-validation.md).
+
+Diese Prüfungen beziehen sich auf den dokumentierten Quellcode. Sie ersetzen keinen vollständigen Live-Telefonietest; die Supervisor-Offline-Demo nutzt synthetische Beispiele. Den Unterschied zwischen dem veröffentlichten Phonbot-Code und meinem funktionierenden GPT-Live-1-Stack erläutert das Projekt-README.
+
+Die Fallstudien beschreiben meine eigene Projektarbeit. Interner Kundencode und Kundendaten bleiben privat.
 
 </details>
 
-## Arbeitsweise und beruflicher Fokus
-
-Ich habe mir meine Kenntnisse durch praktische Projekte erarbeitet und nutze bei der Entwicklung unter anderem Claude Code. Mein Schwerpunkt ist die Umsetzung zusammenhängender Geschäftsabläufe mit n8n, Shopify, APIs und Voice Agents.
-
-Ich suche eine Festanstellung in **KI-Implementierung, Prozessautomatisierung, technischem Kunden-Onboarding oder E-Commerce**. Start flexibel.
-
-Die Fallstudien beschreiben meine Projektarbeit. Interner Kundencode bleibt privat. Den Umfang des veröffentlichten Codes und den aktuellen Phonbot-Stand erläutere ich im jeweiligen Repository.
-
 ---
 
-**English:** Self-taught builder of business automations, e-commerce integrations and voice agents. Practical experience with Shopify, self-hosted n8n, APIs and AI-assisted development. Based in Berlin; open to full-time or part-time employment.
+**English:** Self-taught builder focused on AI implementation, business automation and e-commerce. Projects under MindRails include Phonbot and MindRails Supervisor. Based in Berlin; open to full-time or part-time employment.
