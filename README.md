@@ -21,6 +21,24 @@ Ich verbinde Shopify, n8n und APIs zu Abläufen für Bestellungen, Lager, Versan
 - **Code:** [Phonbot: Einstiegspunkte](https://github.com/haskallalk-eng/voice-agent-phonbot#code-gezielt-ansehen) führen direkt zu API, Konfiguration und Dashboard.
 - **Ausprobieren:** Die [Supervisor-Offline-Demo](https://github.com/haskallalk-eng/mindrails-supervisor#try-the-free-offline-demo) zeigt die Entscheidungslogik mit synthetischen Beispielen und benötigt keinen API-Schlüssel.
 
+## Technische Nachweise
+
+Am 22. Oktober 2026 lokal geprüft; Befehle, Versionen und Grenzen sind dokumentiert:
+
+- [Phonbot-Prüfbericht](https://github.com/haskallalk-eng/voice-agent-phonbot/blob/master/docs/portfolio-validation.md): 1.745 API-Tests bestanden, dazu Pakettests, Typprüfung und Builds.
+- [Supervisor-Prüfbericht](https://github.com/haskallalk-eng/mindrails-supervisor/blob/main/docs/portfolio-validation.md): 132 Tests und 12 lokale MCP-Szenarien bestanden.
+
+Die Tests belegen den beschriebenen Codeumfang. Sie ersetzen keinen vollständigen Live-Telefonietest; die Supervisor-Demo verwendet synthetische Beispiele.
+
+<details>
+<summary>Phonbot: echter Einblick in die öffentliche Demo</summary>
+
+![Öffentliche Phonbot-Oberfläche mit geöffnetem Salon-Demodialog](assets/phonbot-public-demo-20261022.jpg)
+
+Aufnahme vom 22. Oktober 2026 auf [phonbot.de](https://phonbot.de/). Der Dialog wurde im Browser geöffnet. Er bietet einen fiktiven Salon mit Testkalender; diese Aufnahme ist kein Nachweis eines durchgeführten Telefongesprächs.
+
+</details>
+
 ## Arbeitsweise und beruflicher Fokus
 
 Ich habe mir meine Kenntnisse durch praktische Projekte erarbeitet und nutze bei der Entwicklung unter anderem Claude Code. Mein Schwerpunkt ist die Umsetzung zusammenhängender Geschäftsabläufe mit n8n, Shopify, APIs und Voice Agents.
