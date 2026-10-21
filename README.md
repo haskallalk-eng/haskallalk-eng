@@ -1,19 +1,25 @@
 # Hassieb Kalla
-### KI-Implementierung · Prozessautomatisierung · E-Commerce
+**KI-Implementierung · Prozessautomatisierung · E-Commerce**
 
 Ich verbinde Shopify, n8n und APIs zu Abläufen für Bestellungen, Lager, Versand und Kundenkommunikation. Dazu entwickle ich KI-Telefonassistenten und Werkzeuge für die Arbeit mit Coding-Agenten.
 
 **Berlin · Voll- oder Teilzeit · hybrid oder remote**  
-[Kontakt](mailto:info@mindrails.de) · [LinkedIn](https://www.linkedin.com/in/hassieb-kalla-mindrails/) · [Portfolio](https://github.com/haskallalk-eng/voice-agent-phonbot/blob/master/PORTFOLIO.md)
+[Kontakt](mailto:info@mindrails.de) · [LinkedIn](https://www.linkedin.com/in/hassieb-kalla-mindrails/)
 
 ## Ausgewählte Projekte
 
 | Projekt | Beitrag | Einblick |
 | --- | --- | --- |
-| **Doctor K** | Shopify, Kasse und Bestand verbunden; Versand automatisiert; Klaviyo-Flows auf n8n übertragen | [Fallstudie](https://github.com/haskallalk-eng/voice-agent-phonbot/blob/master/CASE-STUDY-DOCTOR-K.md) |
+| **Doctor K** | Shopify, Kasse und Bestand verbunden; Versand automatisiert; Klaviyo-Flows auf n8n übertragen | [Fallstudie](https://github.com/haskallalk-eng/haskallalk-eng/blob/main/case-studies/doctor-k.md) |
 | **Phonbot** | KI-Telefonassistent mit Agentenkonfiguration und Dashboard | [Code und Projektstand](https://github.com/haskallalk-eng/voice-agent-phonbot) |
-| **Musik-Automation** | Sechs E-Mail-Workflows für Artists und Producer, Kontaktsegmentierung und Content-Dashboard | [Fallstudie](https://github.com/haskallalk-eng/voice-agent-phonbot/blob/master/CASE-STUDY-MUSIC-AUTOMATION.md) |
+| **Musik-Automation** | Sechs E-Mail-Workflows für Artists und Producer, Kontaktsegmentierung und Content-Dashboard | [Fallstudie](https://github.com/haskallalk-eng/haskallalk-eng/blob/main/case-studies/music-automation.md) |
 | **Mindrails Supervisor** | Plugins und MCP-Werkzeuge für Claude Code und Codex | [Code, Screenshot und Offline-Demo](https://github.com/haskallalk-eng/mindrails-supervisor) |
+
+## Direkt in die Umsetzung
+
+- **Geschäftsprozesse:** [Doctor K](https://github.com/haskallalk-eng/haskallalk-eng/blob/main/case-studies/doctor-k.md) verbindet Shop, Bestand, Versand und Kundeninformation.
+- **Code:** [Phonbot: Einstiegspunkte](https://github.com/haskallalk-eng/voice-agent-phonbot#code-gezielt-ansehen) führen direkt zu API, Konfiguration und Dashboard.
+- **Ausprobieren:** Die [Supervisor-Offline-Demo](https://github.com/haskallalk-eng/mindrails-supervisor#try-the-free-offline-demo) zeigt die Entscheidungslogik mit synthetischen Beispielen und benötigt keinen API-Schlüssel.
 
 ## Arbeitsweise und beruflicher Fokus
 
