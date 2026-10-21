@@ -1,42 +1,42 @@
-# E-Mail-Automatisierung für einen Musikproduzenten
+# Marketing- und Betriebsautomatisierung für ein Musikbusiness
 
-**Praxisprojekt von Hassieb Kalla · n8n, Kontaktsegmentierung und Content-Abläufe**
+**Praxisprojekt von Hassieb Kalla · n8n, E-Mail-Marketing, Verkaufsfunnels, Content-Automation und Claude**
 
-Für einen Musikproduzenten habe ich wiederkehrende Kommunikations- und Planungsaufgaben in zusammenhängende Abläufe übertragen. Zwei Zielgruppen standen im Mittelpunkt: Artists und andere Producer.
+Für einen Musikproduzenten habe ich Abläufe für Kundengewinnung, Verkauf und die interne Zusammenarbeit aufgebaut. Das Projekt verbindet die Ansprache von Artists und Producern mit Angeboten für Studiomiete, Beats, Samples und Musikproduktion. Dazu kommt eine zentrale Wissens- und Arbeitsbasis für den laufenden Betrieb.
 
-## Mein Beitrag
+## Marketing und Kundenkommunikation
 
-| Aufgabe | Umsetzung |
+| Bereich | Mein Beitrag |
 | --- | --- |
-| Zielgruppenspezifische Kommunikation | Sechs E-Mail-Workflows: jeweils drei für Artists und Producer |
-| Kontakte organisieren | Zentrale Kontaktdatenbank mit Tags zur Segmentierung |
-| Kontaktgewinnung verbinden | Abläufe rund um Website, BeatStars und kostenlose Beats |
-| Wiederkehrende Kommunikation | DM-Automatisierung |
-| Content organisieren | Content-Plantabelle, Kalender und automatisches Posten |
-| Überblick schaffen | Internes Dashboard mit Datenbank und Reel-Analytics |
-| Marketing unterstützen | Unterstützung bei Content-Erstellung sowie Social- und Meta-Ads-Planung |
+| E-Mail-Marketing | Sechs zielgruppenspezifische Workflows: jeweils drei für Artists und Producer |
+| Kontaktsegmentierung | Zentrale Kontaktdatenbank mit Tags und Abläufen rund um Website, BeatStars und kostenlose Beats |
+| DM-Automation | Automatisierung wiederkehrender Direktnachrichten als Teil der Kundengewinnung |
+| Content-Automation | Content-Planung, Kalender und automatisches Posten; Unterstützung bei Content-Erstellung sowie Social- und Meta-Ads-Planung |
+| Auswertung | Internes Dashboard mit Datenbank und Reel-Analytics |
 
-Mein Beitrag umfasst die Einrichtung der sechs Workflows, die Strukturierung der Kontakte über Tags und die Verbindung mit Content-Planung und Dashboard. Bei der technischen Umsetzung nutze ich KI-Unterstützung. Die zwei Zielgruppen werden über getrennte E-Mail-Abläufe angesprochen.
+## Landingpages und individuelle Funnels
 
-## Fachliches Ablaufmodell
+Ich habe die Angebote über passende Einstiegsseiten und Abläufe für Interessenten zugänglich gemacht:
 
-```mermaid
-flowchart TD
-    A["Website und BeatStars"] --> B["Zentrale Kontakte mit Tags"]
-    B --> C["Artists: drei E-Mail-Workflows"]
-    B --> D["Producer: drei E-Mail-Workflows"]
-    E["Content-Plan und Kalender"] --> A
-    A --> F["Dashboard und Auswertung"]
-```
+- **Studiovermietung:** Landingpage für das Mietangebot.
+- **Beats und Samples:** Verkaufsangebote für digitale Musikprodukte.
+- **Mixing und Mastering:** Buchungsmöglichkeit für die Bearbeitung von Musikproduktionen.
+- **Individuelle Songproduktion:** Eigene Funnels für Interessenten, die einen Song produzieren lassen möchten.
 
-Vereinfachtes fachliches Modell; keine technische Darstellung sämtlicher Integrationen.
+Die Angebote werden gezielt angesprochen, statt alle Kontakte durch denselben Verkaufsablauf zu führen.
 
-## Ergebnis
+## Zentrale Wissensbasis und Teamarbeit mit Claude
 
-Entstanden sind sechs zielgruppenspezifische E-Mail-Workflows, eine strukturierte Kontaktbasis sowie Werkzeuge für Content-Planung und Auswertung.
+Ich habe Claude mit einer zentralen, auf GitHub organisierten Wissensbasis für das Unternehmen eingerichtet. Automatische Aktualisierungen unterstützen den Überblick über Finanzen, Mitarbeitende und Studiovermietung.
 
-Im Gespräch erläutere ich die Segmentierung, den Aufbau der sechs E-Mail-Workflows und die Verbindung zur Content-Planung.
+Ergänzend habe ich eine gemeinsame Arbeitsumgebung für das Team und die Arbeit von Praktikantinnen und Praktikanten eingerichtet. Die Wissensbasis bündelt den Unternehmenskontext für die Arbeit mit Claude; die Teamumgebung unterstützt die operative Zusammenarbeit.
 
-**Veröffentlichungsumfang:** Projektbeschreibung aus eigener Arbeit; Kundennamen, Kontaktdaten und interne Workflow-Exporte bleiben privat.
+## Mein Schwerpunkt
+
+Mein Beitrag liegt in der Einrichtung und Verbindung dieser Abläufe: von Kontaktgewinnung und Segmentierung über Content und Verkaufsangebote bis zur internen Wissensorganisation. Bei der technischen Umsetzung nutze ich KI-Unterstützung, unter anderem Claude.
+
+Das Projekt zeigt meine praktische Arbeit an **Marketing-Automatisierung, digitalen Buchungs- und Verkaufsprozessen sowie KI-gestützter Zusammenarbeit**. Im Gespräch kann ich den Aufbau der sechs E-Mail-Workflows, die unterschiedlichen Funnels und die zentrale Wissensbasis erläutern.
+
+**Veröffentlichungsumfang:** Diese Fallstudie beschreibt meine Projektarbeit. Kundennamen, Kontaktdaten, Finanzinformationen, interne Repositories und Workflow-Exporte bleiben privat.
 
 [Zurück zum Profil](https://github.com/haskallalk-eng) · [Doctor-K-Fallstudie](doctor-k.md) · [Kontakt](mailto:info@mindrails.de)
