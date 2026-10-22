@@ -2,7 +2,7 @@
 
 **KI-Implementierung · Prozessautomatisierung · E-Commerce**
 
-Ich verbinde Shopify, n8n und APIs zu Abläufen für Bestellungen, Bestand, Versand und Kundenkommunikation. Unter **MindRails** entwickle ich außerdem Werkzeuge für Coding-Agenten und einen KI-Telefonassistenten.
+Ich verbinde Shopify, n8n und APIs zu Abläufen für Bestellungen, Bestand, Versand und Kundenkommunikation. Unter **MindRails** entwickle ich außerdem Werkzeuge für Coding-Agenten.
 
 Mein Schwerpunkt: Geschäftsprozesse verstehen, Integrationen umsetzen und Ergebnisse anhand konkreter Abläufe prüfen. Bei der Entwicklung nutze ich KI-Werkzeuge, unter anderem Claude Code; meinen eigenen Beitrag und technische Grenzen beschreibe ich bei jedem Projekt.
 
@@ -42,16 +42,6 @@ Sechs zielgruppenspezifische E-Mail-Workflows, Funnels für Studio- und Musikang
 **Mein Beitrag:** Einrichtung und Verbindung von Kontaktsegmentierung, Kundenkommunikation, Verkaufsabläufen und KI-gestützter Zusammenarbeit. Die veröffentlichte Fallstudie beschreibt die Arbeit; sie enthält keine Kundendaten oder verifizierten Umsatzkennzahlen.
 
 [Fallstudie lesen](case-studies/music-automation.md)
-
-## Weiteres Entwicklungsprojekt: Phonbot
-
-KI-Telefonassistent für kleine Unternehmen mit Agentenkonfiguration und Dashboard. Mein Schwerpunkt liegt im Zusammenspiel von Telefonie, Integrationen und betrieblichen Abläufen.
-
-**Veröffentlichungsstand:** Der öffentliche Code zeigt einen älteren Retell-/OpenAI-Realtime-Stand. Er bildet den aktuellen GPT-Live-1-Stack nicht vollständig ab und ist hier als technische Referenz eingeordnet.
-
-[Code und Architektur-Einstieg](https://github.com/haskallalk-eng/voice-agent-phonbot#code-gezielt-ansehen) · [Prüfnachweis und Grenzen](https://github.com/haskallalk-eng/voice-agent-phonbot/blob/master/docs/portfolio-validation.md)
-
-Der veröffentlichte Nachweis vom 22. Oktober 2026 dokumentiert 1.745 API-Tests, weitere Pakettests, Typprüfungen und Builds für den dort genannten Quellcode-Stand. Er belegt keinen vollständigen Live-Telefonietest und keine Abnahme des aktuellen Produktstacks.
 
 ## Einblick in meine Arbeitsweise
 
