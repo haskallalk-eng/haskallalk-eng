@@ -43,15 +43,9 @@ Sechs zielgruppenspezifische E-Mail-Workflows, Funnels für Studio- und Musikang
 
 [Fallstudie lesen](case-studies/music-automation.md)
 
-## Einblick in meine Arbeitsweise
+## Wiederverwendbare Vorlagen
 
-Drei eigene MindRails-Skills enthalten abgeschlossene Prüf- und Planungsvorlagen mit synthetischen Beispielen:
-
-- **Automation Review:** [Doppelte Versandlabels und sichere Wiederholungen](skills/mindrails-review-automation/references/worked-example.md)
-- **Commerce Mapping:** [Die letzte Einheit im Shop und an der Kasse](skills/mindrails-map-commerce/references/worked-example.md)
-- **AI Pilot:** [Telefonassistent für Studiobuchungen mit begrenztem Auftrag](skills/mindrails-plan-ai-pilot/references/worked-example.md)
-
-[Vorlagen, Nutzung und Prüfgrenzen](skills/README.md). Diese Arbeitsproben zeigen meine Vorgehensweise; sie sind keine Kundenmessungen oder Live-Integrationen.
+[MindRails Skills](skills/README.md): Anleitungen für Workflow-Reviews, die Planung von Handelsintegrationen und die Abgrenzung von KI-Piloten. Die Beispiele illustrieren die Anwendung der Vorlagen und sind keine zusätzlichen Referenzprojekte.
 
 ## Zusammenarbeit
 
