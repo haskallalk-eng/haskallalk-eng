@@ -10,10 +10,10 @@ Ich verbinde Shopify, n8n und APIs zu Abläufen für Bestellungen, Lager, Versan
 
 | Aufgabenfeld | Beispiel aus meiner Arbeit |
 | --- | --- |
-| KI-Implementierung und technische Integrationen | **Phonbot:** Telefonie, Agentenkonfiguration und Geschäftsabläufe verbinden |
-| Prozessautomatisierung und E-Commerce | **Doctor K:** Shopify, Kasse, Bestand, Versand und n8n-Workflows |
-| Marketing-Automation und digitale Kundenprozesse | **Musikbusiness:** segmentierte E-Mail-Flows, DM-Automation, Verkaufs- und Buchungsfunnels |
-| Werkzeuge für KI-gestützte Entwicklung | **MindRails Supervisor:** Modellberatung, Aufgabenprüfung und Erkennung wiederholter Schritte |
+| KI-Implementierung und technische Integrationen | [**Phonbot**](https://github.com/haskallalk-eng/voice-agent-phonbot): Telefonie, Agentenkonfiguration und Geschäftsabläufe verbinden |
+| Prozessautomatisierung und E-Commerce | [**Doctor K**](case-studies/doctor-k.md): Shopify, Kasse, Bestand, Versand und n8n-Workflows |
+| Marketing-Automation und digitale Kundenprozesse | [**Musikbusiness**](case-studies/music-automation.md): segmentierte E-Mail-Flows, DM-Automation, Verkaufs- und Buchungsfunnels |
+| Werkzeuge für KI-gestützte Entwicklung | [**MindRails Supervisor**](https://github.com/haskallalk-eng/mindrails-supervisor#try-the-free-offline-demo): Modellberatung, Aufgabenprüfung und Erkennung wiederholter Schritte |
 
 ## Projekte von MindRails
 
