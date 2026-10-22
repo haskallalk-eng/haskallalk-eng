@@ -1,0 +1,4 @@
+interface:
+  display_name: "MindRails Commerce Mapping"
+  short_description: "Map order, stock and customer communication flows"
+  default_prompt: "Use $mindrails-map-commerce to map this order-to-fulfilment process."

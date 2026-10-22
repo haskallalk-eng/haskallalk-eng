@@ -1,0 +1,4 @@
+interface:
+  display_name: "MindRails Automation Review"
+  short_description: "Review retries, side effects and recovery safely"
+  default_prompt: "Use $mindrails-review-automation to review this workflow before launch."

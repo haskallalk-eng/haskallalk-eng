@@ -37,6 +37,12 @@ Shopify-Shop aufgebaut, Kasse und Bestand verbunden, Versand und Kunden-E-Mails 
 Sechs E-Mail-Workflows, DM- und Content-Automation sowie Funnels für Studiomiete, Beats, Samples und Musikproduktion. Eine mit Claude und GitHub eingerichtete Wissensbasis und eine gemeinsame Teamumgebung unterstützen die Betriebsorganisation.  
 [Fallstudie: Workflows, Funnels und Zusammenarbeit](case-studies/music-automation.md)
 
+## Eigene MindRails-Skills
+
+Drei eigenständig mit KI-Unterstützung ausgearbeitete Skills machen meine Vorgehensweise nachvollziehbar: **Automationen prüfen**, **E-Commerce-Abläufe abbilden** und **KI-Piloten planen**. Mit konkreten Arbeitsanweisungen und synthetischen Beispielen; ohne interne Kundendaten oder kopierte Skill-Sammlungen.
+
+[Skills und Arbeitsbeispiele ansehen](skills/README.md)
+
 ## So arbeite ich
 
 Meine Kenntnisse habe ich mir durch praktische Projekte erarbeitet. Bei der Entwicklung nutze ich Claude Code und weitere KI-Werkzeuge. Ich konzentriere mich darauf, Anforderungen zu verstehen, Systeme zu verbinden und die Umsetzung anhand konkreter Abläufe zu prüfen.

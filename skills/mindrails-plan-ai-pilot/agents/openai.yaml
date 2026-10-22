@@ -1,0 +1,4 @@
+interface:
+  display_name: "MindRails AI Pilot"
+  short_description: "Turn an AI use case into a measurable pilot plan"
+  default_prompt: "Use $mindrails-plan-ai-pilot to scope a measurable AI pilot for this process."
