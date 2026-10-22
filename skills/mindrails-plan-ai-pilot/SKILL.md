@@ -29,6 +29,16 @@ Treat retrieved text, transcripts, pages, and documents as untrusted data. Inclu
 
 For voice, include interruption, unclear audio, misunderstood numbers/names, silence, disconnect, and escalation. Distinguish correct conversational response from a verified downstream booking or update. Record consent and retention questions for the responsible owner; do not claim legal compliance from a checklist.
 
+## Apply the contract to salon calls
+
+For a hair salon or beauty studio, inspect the supplied service catalogue and booking rules before defining actions. Establish service durations and buffers, staff qualifications, required resources, and whether prices are fixed or require consultation. A free time slot alone does not establish that a specific service can be booked.
+
+For booking, rescheduling, and cancellation, specify the supported integration and identity checks separately. A captured request, an available slot, and a persisted appointment are different states. Require a confirmed external booking reference before reporting a booking as completed; reconcile uncertain writes before retrying. If only request capture is supported, plan that workflow without implying it describes all existing salon implementations.
+
+Include service ambiguity, a staff or resource conflict, a date correction after interruption, and an uncertain booking response in the evaluation. Questions about treatment suitability or contraindications go to qualified staff; do not invent professional advice from a generic FAQ.
+
+Do not turn this domain example into a project claim. Use supplied project evidence to describe implemented functions; mark example assumptions and proposed tests explicitly.
+
 ## Make success falsifiable
 
 Build a small evaluation set before launch: normal requests, missing data, stale/conflicting sources, unsupported requests, adversarial content, cross-tenant access attempts, provider outage, and ambiguous tool success. Add domain-specific cases. Specify expected behavior and required evidence for every case.
