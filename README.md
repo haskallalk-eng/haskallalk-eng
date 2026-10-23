@@ -20,13 +20,13 @@ Mein Schwerpunkt ist die praktische Umsetzung von KI und Automatisierung: Gesch�
 | Projekt | Meine Arbeit | Einstieg und Stand |
 | --- | --- | --- |
 | **MindRails Supervisor** | Plugins, lokale App und MCP-Werkzeuge für Modellhinweise und Aufgabenprüfungen zusammengeführt | [Code und Offline-Demo](https://github.com/haskallalk-eng/mindrails-supervisor) · abgeschlossene Preview mit synthetischen Beispielen |
-| **Phonbot** | KI-Telefonassistent mit Agentenkonfiguration, Dashboard und API-Integrationen | [Code und Architektur](https://github.com/haskallalk-eng/voice-agent-phonbot) · veröffentlicht ist der ältere Retell-/OpenAI-Realtime-Stand |
+| **Phonbot** | KI-Telefonassistent mit Agentenkonfiguration, Dashboard und API-Integrationen | [Code und Architektur](https://github.com/haskallalk-eng/voice-agent-phonbot) · Retell-basierte Anwendung mit OpenAI-Realtime-Referenzcode |
 | **Doctor K** | Shopify, Kasse, Bestand, Versand und n8n-E-Mail-Abläufe verbunden | [Fallstudie](case-studies/doctor-k.md) · interner Code und Kundendaten privat |
 | **Musikbusiness & Studio** | Sechs E-Mail-Workflows, Verkaufsfunnels und KI-gestützte Teamabläufe eingerichtet | [Fallstudie](case-studies/music-automation.md) · interne Workflows und Geschäftsdaten privat |
 
 ## Code und Entscheidungen nachvollziehen
 
-**MindRails Supervisor** bietet einen Einstieg ohne Konto oder API-Schlüssel. Die Offline-Demo zeigt anhand synthetischer Eingaben, wie Aufgaben geprüft und wiederholte Arbeitsschritte erkannt werden. Herkunft und Abgrenzung zu Jev sind im Repository dokumentiert.
+**MindRails Supervisor** bietet einen Einstieg ohne Konto oder API-Schlüssel. Die Offline-Demo zeigt anhand synthetischer Eingaben, wie Aufgaben geprüft und wiederholte Arbeitsschritte erkannt werden. [Herkunft und Abgrenzung zu Jev](https://github.com/haskallalk-eng/mindrails-supervisor/blob/main/docs/provenance.md) sind im Repository dokumentiert.
 
 [Demo Schritt für Schritt](https://github.com/haskallalk-eng/mindrails-supervisor/blob/main/docs/offline-walkthrough.md) · [Architektur](https://github.com/haskallalk-eng/mindrails-supervisor/blob/main/docs/architecture.md) · [Prüfnachweis](https://github.com/haskallalk-eng/mindrails-supervisor/blob/main/docs/portfolio-validation.md)
 
@@ -48,7 +48,7 @@ Der Prüfnachweis vom 22. Oktober 2026 dokumentiert 133 bestandene Tests und 12 
 
 Meine Kenntnisse habe ich mir durch praktische Projekte erarbeitet. Ich suche eine Rolle mit Schwerpunkt **KI-Implementierung und Prozessautomatisierung**. Dazu bringe ich praktische Erfahrung mit E-Commerce-Prozessen und der Einrichtung verbundener Systeme mit. Im Gespräch erläutere ich gern Abläufe, Entscheidungen, Fehlerfälle und meinen konkreten Anteil an der Umsetzung.
 
-Interner Kundencode und vertrauliche Daten bleiben privat. Ergebnisse und Schätzungen sind in den jeweiligen Fallstudien eingeordnet.
+Interner Kundencode und vertrauliche Daten bleiben privat. Ergebnisse und Grenzen sind in den jeweiligen Fallstudien eingeordnet.
 
 [Kontakt aufnehmen](mailto:info@mindrails.de)
 
