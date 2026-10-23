@@ -2,59 +2,51 @@
 
 **KI-Implementierung · Prozessautomatisierung · E-Commerce**
 
-Ich verbinde Shopify, n8n und APIs zu Abläufen für Bestellungen, Bestand, Versand und Kundenkommunikation. Unter **MindRails** entwickle ich außerdem Werkzeuge für Coding-Agenten.
+Ich verbinde Shopify, n8n und APIs zu Abläufen für Bestellungen, Bestand, Versand und Kundenkommunikation. Unter **MindRails** entwickle ich außerdem KI-Telefonassistenten und Werkzeuge für Coding-Agenten.
 
-Mein Schwerpunkt: Geschäftsprozesse verstehen, Integrationen umsetzen und Ergebnisse anhand konkreter Abläufe prüfen. Bei der Entwicklung nutze ich KI-Werkzeuge, unter anderem Claude Code; meinen eigenen Beitrag und technische Grenzen beschreibe ich bei jedem Projekt.
+Mein Schwerpunkt: Geschäftsprozesse verstehen, Integrationen umsetzen und das Ergebnis an konkreten Abläufen prüfen. Ich entwickle mit KI-Unterstützung, unter anderem Claude Code, und dokumentiere meinen eigenen Beitrag und die Grenzen der Projekte.
 
-**Berlin · offen für Festanstellung · Voll- oder Teilzeit · hybrid oder remote**  
-[Kontakt](mailto:info@mindrails.de) · [LinkedIn](https://www.linkedin.com/in/hassieb-kalla-mindrails/) · [MindRails](https://mindrails.de)
+**Berlin · offen für Festanstellung · Voll- oder Teilzeit · hybrid oder remote**
 
-## Ausgewählte Arbeitsproben
+[E-Mail](mailto:info@mindrails.de) · [LinkedIn](https://www.linkedin.com/in/hassieb-kalla-mindrails/) · [MindRails](https://mindrails.de)
 
-| Arbeitsprobe | Was du ansehen kannst | Veröffentlichungsstand |
+## Arbeitsproben
+
+| Projekt | Meine Arbeit | Einstieg und Stand |
 | --- | --- | --- |
-| **MindRails Supervisor** | TypeScript-Code, MCP-Werkzeuge, Plugins und eine Offline-Demo mit nachvollziehbaren Entscheidungen | Abgeschlossene Preview; Demo mit synthetischen Daten |
-| **Doctor K** | Verbindung von Shopify, Kasse, Bestand, Versand und n8n-E-Mail-Abläufen | Praxisfallstudie; interner Code und Kundendaten privat |
-| **Musikbusiness & Studio** | Sechs E-Mail-Workflows, Verkaufsfunnels und KI-gestützte Teamabläufe | Praxisfallstudie; interne Workflows und Geschäftsdaten privat |
+| **MindRails Supervisor** | Plugins, lokale App und MCP-Werkzeuge für Modellhinweise und Aufgabenprüfungen zusammengeführt | [Code und Offline-Demo](https://github.com/haskallalk-eng/mindrails-supervisor) · abgeschlossene Preview mit synthetischen Beispielen |
+| **Phonbot** | KI-Telefonassistent mit Agentenkonfiguration, Dashboard und API-Integrationen | [Code und Architektur](https://github.com/haskallalk-eng/voice-agent-phonbot) · veröffentlicht ist der ältere Retell-/OpenAI-Realtime-Stand |
+| **Doctor K** | Shopify, Kasse, Bestand, Versand und n8n-E-Mail-Abläufe verbunden | [Fallstudie](case-studies/doctor-k.md) · interner Code und Kundendaten privat |
+| **Musikbusiness & Studio** | Sechs E-Mail-Workflows, Verkaufsfunnels und KI-gestützte Teamabläufe eingerichtet | [Fallstudie](case-studies/music-automation.md) · interne Workflows und Geschäftsdaten privat |
 
-### MindRails Supervisor — direkt ausprobieren
+## Code und Entscheidungen nachvollziehen
 
-Werkzeuge für Coding-Agenten: Modellhinweise, Prüfung vorgegebener Aufgabenkriterien und Erkennung wiederholter Arbeitsschritte. Die Offline-Demo benötigt weder Konto noch API-Schlüssel und macht die Entscheidungslogik prüfbar.
+**MindRails Supervisor** bietet einen Einstieg ohne Konto oder API-Schlüssel. Die Offline-Demo zeigt anhand synthetischer Eingaben, wie Aufgaben geprüft und wiederholte Arbeitsschritte erkannt werden. Herkunft und Abgrenzung zu Jev sind im Repository dokumentiert.
 
-**Mein Beitrag:** Entwicklung des MindRails-Projekts mit KI-Unterstützung; Zusammenführung von Plugins, lokaler App und MCP-Werkzeugen. Herkunft und Abgrenzung zu Jev sind im Repository dokumentiert.
+[Demo Schritt für Schritt](https://github.com/haskallalk-eng/mindrails-supervisor/blob/main/docs/offline-walkthrough.md) · [Architektur](https://github.com/haskallalk-eng/mindrails-supervisor/blob/main/docs/architecture.md) · [Prüfnachweis](https://github.com/haskallalk-eng/mindrails-supervisor/blob/main/docs/portfolio-validation.md)
 
-[Quellcode und Einstieg](https://github.com/haskallalk-eng/mindrails-supervisor) · [Demo Schritt für Schritt](https://github.com/haskallalk-eng/mindrails-supervisor/blob/main/docs/offline-walkthrough.md) · [Architektur](https://github.com/haskallalk-eng/mindrails-supervisor/blob/main/docs/architecture.md) · [Prüfnachweis](https://github.com/haskallalk-eng/mindrails-supervisor/blob/main/docs/portfolio-validation.md)
+Der Prüfnachweis vom 22. Oktober 2026 dokumentiert 133 bestandene Tests und 12 lokale MCP-Szenarien. Das belegt die dort beschriebenen Prüfungen, keine Modellgenauigkeit oder gemessenen Kosteneinsparungen.
 
-Der veröffentlichte Prüfnachweis vom 22. Oktober 2026 dokumentiert 133 bestandene Tests und 12 lokale MCP-Szenarien. Die Demo zeigt Regeln und Schnittstellen anhand synthetischer Eingaben; daraus folgen keine nachgewiesene Modellgenauigkeit oder gemessenen Kosteneinsparungen.
+**Phonbot** zeigt die Verbindung von Telefonie, Agentenkonfiguration und einem Dashboard mit **TypeScript, React und Fastify**. Für den Betrieb sind eine Datenbank und eigene Dienstzugänge erforderlich. Der veröffentlichte Code dokumentiert noch nicht vollständig meine aktuelle GPT-Live-1-Implementierung.
 
-### Doctor K — E-Commerce und betriebliche Integration
+[Projektüberblick](https://github.com/haskallalk-eng/voice-agent-phonbot#readme) · [Architektur](https://github.com/haskallalk-eng/voice-agent-phonbot/blob/master/docs/architecture.md) · [Prüfnachweis](https://github.com/haskallalk-eng/voice-agent-phonbot/blob/master/docs/portfolio-validation.md)
 
-Shopify-Shop, Kasse und Bestand verbunden; Versand und Kunden-E-Mails automatisiert; Klaviyo-Flows auf selbst gehostetes n8n übertragen.
+## Praktische Schwerpunkte
 
-**Mein Beitrag:** Aufbau und Verbindung der Systeme sowie Umsetzung interner Abläufe mit KI-Unterstützung. Die Fallstudie erläutert Ausgangslage, Umsetzung und Ergebnis. Zeitersparnisse sind als interne Schätzungen gekennzeichnet.
+- **E-Commerce und Integrationen:** Shopify, Kasse, Bestand, Versand und APIs.
+- **Prozessautomatisierung:** n8n, E-Mail-Workflows und wiederkehrende Geschäftsabläufe.
+- **KI-Implementierung:** Voice Agents, Coding-Agent-Werkzeuge und KI-gestützte Zusammenarbeit.
 
-[Fallstudie lesen](case-studies/doctor-k.md)
-
-### Musikbusiness & Studio — Marketing und Zusammenarbeit
-
-Sechs zielgruppenspezifische E-Mail-Workflows, Funnels für Studio- und Musikangebote sowie eine zentrale Wissensbasis und Teamumgebung.
-
-**Mein Beitrag:** Einrichtung und Verbindung von Kontaktsegmentierung, Kundenkommunikation, Verkaufsabläufen und KI-gestützter Zusammenarbeit. Die veröffentlichte Fallstudie beschreibt die Arbeit; sie enthält keine Kundendaten oder verifizierten Umsatzkennzahlen.
-
-[Fallstudie lesen](case-studies/music-automation.md)
-
-## Wiederverwendbare Vorlagen
-
-[MindRails Skills](skills/README.md): Anleitungen für Workflow-Reviews, die Planung von Handelsintegrationen und die Abgrenzung von KI-Piloten. Die Beispiele illustrieren die Anwendung der Vorlagen und sind keine zusätzlichen Referenzprojekte.
+[MindRails Skills](skills/README.md) enthält wiederverwendbare Vorlagen für Workflow-Reviews, Handelsintegrationen und die Planung von KI-Piloten. Die Beispiele illustrieren die Anwendung und sind keine zusätzlichen Referenzprojekte.
 
 ## Zusammenarbeit
 
-Meine Kenntnisse habe ich mir durch praktische Projekte erarbeitet. Besonders interessieren mich **KI-Implementierung, Prozessautomatisierung, technisches Kunden-Onboarding und E-Commerce**. Im Gespräch erläutere ich die Abläufe, Entscheidungen, Fehlerfälle und meinen eigenen Anteil an der Umsetzung.
+Meine Kenntnisse habe ich mir durch praktische Projekte erarbeitet. Ich suche eine Rolle in **KI-Implementierung, Prozessautomatisierung, technischem Kunden-Onboarding oder E-Commerce**. Im Gespräch erläutere ich gern Abläufe, Entscheidungen, Fehlerfälle und meinen konkreten Anteil an der Umsetzung.
 
-Interner Kundencode und vertrauliche Daten bleiben privat. Öffentliche Testnachweise gelten für die jeweils dokumentierten Stände und Prüfbedingungen.
+Interner Kundencode und vertrauliche Daten bleiben privat. Ergebnisse und Schätzungen sind in den jeweiligen Fallstudien eingeordnet.
 
 [Kontakt aufnehmen](mailto:info@mindrails.de)
 
 ---
 
-**English:** Self-taught builder focused on AI implementation, business automation and e-commerce. Selected work includes an inspectable coding-agent tooling preview and case studies from commerce and music-business automation. I use AI coding tools and document my contribution, evidence and limitations. Based in Berlin; open to employment.
+**English:** Self-taught builder focused on AI implementation, business automation and e-commerce. My portfolio includes coding-agent tools, a voice-assistant project and case studies from commerce and music-business automation. I use AI coding tools and document my contribution, evidence and limitations. Based in Berlin; open to employment.
