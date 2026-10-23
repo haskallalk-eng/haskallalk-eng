@@ -52,8 +52,7 @@ Anhand dieses Projekts lassen sich drei konkrete Fragen besprechen:
 
 Diese Fragen sind ein Leitfaden für das Gespräch. Interne Konfigurationen, Abnahmeprotokolle und Fehlerbehandlung sind in diesem öffentlichen Repository nicht als Quellcode belegt.
 
-## Was ich im Gespräch zeigen kann
-Ich erläutere gern den Bestellablauf, die Migration von Klaviyo zu n8n und meinen konkreten Anteil an den Integrationen. Geeignete Einblicke in interne Anwendungen können nach Abstimmung gezeigt werden.
+Geeignete Einblicke in interne Anwendungen können nach Abstimmung gezeigt werden.
 
 **Veröffentlichungsumfang:** Projektbeschreibung aus eigener Arbeit; interner Quellcode und Kundendaten bleiben privat.
 
