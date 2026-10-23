@@ -37,6 +37,16 @@ Mein Beitrag liegt in der Einrichtung und Verbindung dieser Abläufe: von Kontak
 
 Das Projekt zeigt meine praktische Arbeit an **Marketing-Automatisierung, digitalen Buchungs- und Verkaufsprozessen sowie KI-gestützter Zusammenarbeit**. Im Gespräch kann ich den Aufbau der sechs E-Mail-Workflows, die unterschiedlichen Funnels und die zentrale Wissensbasis erläutern.
 
+## Einen Ablauf gezielt besprechen
+
+Der Einstieg ist die Verbindung von **Kontaktsegmentierung → zielgruppenspezifischen E-Mails → passenden Angeboten**: Die zentrale Kontaktdatenbank unterscheidet Artists und Producer; für beide Zielgruppen wurden jeweils drei E-Mail-Workflows eingerichtet. Dazu kommen die beschriebenen Angebote für Studio, Beats, Samples und Musikproduktion.
+
+Das ist eine fachliche Übersicht, kein veröffentlichter Workflow-Export. Konkrete Auslöser, Versandbedingungen und Ausschlussregeln sind hier nicht dokumentiert. Im Gespräch kann ich an einem ausgewählten Workflow erklären, welche Systeme beteiligt sind, welchen Teil ich eingerichtet habe und wie der Ablauf geprüft wurde.
+
+## Was diese Fallstudie belegt
+
+Die Fallstudie dokumentiert den Umfang meiner beschriebenen Projektarbeit. Sie enthält keine veröffentlichte Messung zu Umsatzsteigerung, Konversion oder Zeitersparnis. Für eine technische Bewertung stehen daher zunächst Aufbau, Systemgrenzen und mein Beitrag im Vordergrund; interne Nachweise können nur nach Abstimmung gezeigt werden.
+
 **Veröffentlichungsumfang:** Diese Fallstudie beschreibt meine Projektarbeit. Kundennamen, Kontaktdaten, Finanzinformationen, interne Repositories und Workflow-Exporte bleiben privat.
 
 [Zurück zum Profil](https://github.com/haskallalk-eng) · [Doctor-K-Fallstudie](doctor-k.md) · [Kontakt](mailto:info@mindrails.de)
