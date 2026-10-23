@@ -16,7 +16,7 @@ Mein Beitrag umfasst den Aufbau des Shopify-Shops, die Verbindung von Kasse und 
 | Kasse und Lager | Kassensystem und zentralen Bestand für Online- und Ladenverkäufe verbunden |
 | Interne Abläufe | Dashboard und interne Anwendung aufgebaut |
 | Versand | Versandvorbereitung, Etiketten, Bestandsabbuchungen und E-Mails mit Sendungsverfolgung automatisiert |
-| E-Mail-Workflows | Bestehende Klaviyo-Flows auf selbst gehostetes n8n übertragen, um laufende Plattformkosten zu reduzieren |
+| E-Mail-Workflows | Bestehende Klaviyo-Flows auf selbst gehostetes n8n übertragen; geringere Plattformkosten waren ein Ziel der Umstellung |
 | Telefon | KI-Telefonassistent für Beratungsanfragen umgesetzt |
 
 ## Fachlicher Ablauf
@@ -36,7 +36,21 @@ Die Automatisierung verbindet einzelne Arbeitsschritte: Bestellungen, Bestandsve
 
 Online- und Ladenverkäufe sind über den zentralen Bestand verbunden. Versandvorbereitung, Etiketten und Kundeninformationen wurden in zusammenhängende Abläufe übertragen. Wiederkehrende E-Mail-Flows laufen über selbst gehostetes n8n.
 
-**Interne Schätzungen:** etwa drei Stunden tägliche Entlastung der Geschäftsführung und mindestens eine Stunde weniger Telefonaufwand. Die Zeitangaben können sich überschneiden und werden nicht addiert. Eine standardisierte Zeiterfassung und ein nachvollziehbarer Vergleichszeitraum sind hier nicht veröffentlicht; die Angaben sind deshalb keine verifizierten Leistungskennzahlen.
+Der beschriebene Nutzen liegt in verbundenen Systemen und weniger einzeln auszuführenden Arbeitsschritten. Diese Fallstudie enthält keine veröffentlichte Vorher-nachher-Messung von Arbeitszeit oder Gesamtkosten; deshalb leite ich daraus keine bezifferte Einsparung ab.
+
+## Entscheidung und technische Abwägung
+
+Ein konkreter Teil der Umsetzung war die Übertragung bestehender Klaviyo-Flows auf selbst gehostetes n8n. Damit lassen sich E-Mail-Abläufe mit weiteren internen Prozessen verbinden. Zur Bewertung dieser Entscheidung gehören neben Plattformgebühren auch Hosting, Wartung und Fehlerbehandlung. Eine Gesamtkostenrechnung ist hier nicht veröffentlicht.
+
+## Für ein technisches Gespräch
+
+Anhand dieses Projekts lassen sich drei konkrete Fragen besprechen:
+
+- Wie hängen Verkauf, Bestandsänderung, Versandvorbereitung und Kundeninformation zusammen?
+- Welche Aufgaben habe ich beim Shop, bei der Verbindung der Systeme und bei der Migration der E-Mail-Flows übernommen?
+- Wie wurden die migrierten Abläufe geprüft, und wie werden Fehler oder manuelle Nacharbeiten erkannt?
+
+Diese Fragen sind ein Leitfaden für das Gespräch. Interne Konfigurationen, Abnahmeprotokolle und Fehlerbehandlung sind in diesem öffentlichen Repository nicht als Quellcode belegt.
 
 ## Was ich im Gespräch zeigen kann
 Ich erläutere gern den Bestellablauf, die Migration von Klaviyo zu n8n und meinen konkreten Anteil an den Integrationen. Geeignete Einblicke in interne Anwendungen können nach Abstimmung gezeigt werden.
