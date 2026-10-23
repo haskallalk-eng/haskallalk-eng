@@ -30,7 +30,7 @@ Mein Schwerpunkt ist die praktische Umsetzung von KI und Automatisierung: Gesch�
 
 [Demo Schritt für Schritt](https://github.com/haskallalk-eng/mindrails-supervisor/blob/main/docs/offline-walkthrough.md) · [Architektur](https://github.com/haskallalk-eng/mindrails-supervisor/blob/main/docs/architecture.md) · [Prüfnachweis](https://github.com/haskallalk-eng/mindrails-supervisor/blob/main/docs/portfolio-validation.md)
 
-Der Prüfnachweis vom 23. Oktober 2026 dokumentiert 165 bestandene Tests und 12 lokale MCP-Szenarien. Der [Review-Nachtrag](https://github.com/haskallalk-eng/mindrails-supervisor/blob/main/docs/review-follow-up.md) zeigt konkrete Korrekturen an Werkzeugstatus und Gesprächsspeicherung. Das belegt die dort beschriebenen Prüfungen, keine Modellgenauigkeit oder gemessenen Kosteneinsparungen.
+Der Prüfnachweis vom 23. Oktober 2026 dokumentiert 167 bestandene Tests und 12 lokale MCP-Szenarien mit ihren jeweiligen Prüfrevisionen. Der [Review-Nachtrag](https://github.com/haskallalk-eng/mindrails-supervisor/blob/main/docs/review-follow-up.md) zeigt konkrete Korrekturen an Werkzeugstatus und Gesprächsspeicherung. Das belegt die dort beschriebenen Prüfungen, keine Modellgenauigkeit oder gemessenen Kosteneinsparungen.
 
 **Phonbot** zeigt die Verbindung von Telefonie, Agentenkonfiguration und einem Dashboard mit **TypeScript, React und Fastify**. Für den Betrieb sind eine Datenbank und eigene Dienstzugänge erforderlich. Als Arbeitsprobe ist hier der öffentliche Retell-/OpenAI-Realtime-Code mit seinem dokumentierten Prüfstand verlinkt.
 
