@@ -40,7 +40,7 @@ Der Prüfnachweis vom 23. Oktober 2026 dokumentiert 167 bestandene Tests und 12 
 
 Der [Review-Nachtrag](https://github.com/haskallalk-eng/voice-agent-phonbot/blob/master/docs/review-follow-up.md) verbindet Webhook- und Admin-Prüfungen mit konkreten Regressionstests. Ein zusätzlicher PostgreSQL-Test prüft konkurrierende Minutenreservierungen an einer echten isolierten Datenbank. Das ersetzt keine Live-Telefonie-Abnahme.
 
-Die [Kalenderkorrektur vom 26. Oktober](https://github.com/haskallalk-eng/voice-agent-phonbot/blob/master/docs/calendar-follow-up.md) dokumentiert einen konkreten Fehler, seine Regressionstests und die Aufteilung einer großen React-Datei. Der [aktuelle Issue-Abgleich](https://github.com/haskallalk-eng/voice-agent-phonbot/blob/master/docs/issue-status-2026-10-26.md) zeigt, was im Code belegt ist und welche Betriebs- oder Abnahmenachweise noch fehlen.
+Die [Kalenderkorrektur vom 26. Oktober](https://github.com/haskallalk-eng/voice-agent-phonbot/blob/master/docs/calendar-follow-up.md) dokumentiert einen konkreten Fehler, seine Regressionstests und die Aufteilung einer großen React-Datei.
 
 ## Praktische Schwerpunkte
 
