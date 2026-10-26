@@ -1,52 +1,35 @@
-# Marketing- und Betriebsautomatisierung für ein Musikbusiness
+# Musikbusiness — Kundenansprache und Teamabläufe
 
-**Praxisprojekt von Hassieb Kalla · n8n, E-Mail-Marketing, Verkaufsfunnels, Content-Automation und Claude**
+**Praxisprojekt von Hassieb Kalla · n8n, E-Mail-Marketing, Verkaufsabläufe und Claude**
 
-Für einen Musikproduzenten habe ich Abläufe für Kundengewinnung, Verkauf und die interne Zusammenarbeit aufgebaut. Das Projekt verbindet die Ansprache von Artists und Producern mit Angeboten für Studiomiete, Beats, Samples und Musikproduktion. Dazu kommt eine zentrale Wissens- und Arbeitsbasis für den laufenden Betrieb.
+Für einen Musikproduzenten habe ich Abläufe für Kundengewinnung, Verkauf und interne Zusammenarbeit aufgebaut. Die Angebote umfassen Studiomiete, Beats, Samples sowie Musikproduktion.
 
-## Marketing und Kundenkommunikation
+## Aufgabe
 
-| Bereich | Mein Beitrag |
+Artists und Producer benötigen unterschiedliche Angebote und Ansprache. Kontakte, E-Mails und Buchungsmöglichkeiten sollten entsprechend zusammenwirken. Gleichzeitig sollte das Team Unternehmenswissen und laufende Aufgaben an einem gemeinsamen Ort nutzen können.
+
+## Mein Beitrag
+
+| Bereich | Umsetzung |
 | --- | --- |
-| E-Mail-Marketing | Sechs zielgruppenspezifische Workflows: jeweils drei für Artists und Producer |
 | Kontaktsegmentierung | Zentrale Kontaktdatenbank mit Tags und Abläufen rund um Website, BeatStars und kostenlose Beats |
-| DM-Automation | Automatisierung wiederkehrender Direktnachrichten als Teil der Kundengewinnung |
-| Content-Automation | Content-Planung, Kalender und automatisches Posten; Unterstützung bei Content-Erstellung sowie Social- und Meta-Ads-Planung |
-| Auswertung | Internes Dashboard mit Datenbank und Reel-Analytics |
+| E-Mail-Marketing | Sechs zielgruppenspezifische Workflows: jeweils drei für Artists und Producer |
+| Angebote und Buchung | Landingpages und Verkaufsabläufe für Studiomiete, Beats, Samples, Mixing/Mastering und individuelle Songproduktion |
+| Marketingbetrieb | Wiederkehrende Direktnachrichten, Content-Planung und automatisches Posten; internes Dashboard mit Datenbank und Reel-Analytics |
+| Wissen und Teamarbeit | Claude mit einer auf GitHub organisierten Wissensbasis sowie eine gemeinsame Arbeitsumgebung für Team und Praktikanten eingerichtet |
 
-## Landingpages und individuelle Funnels
+## Ein Ablauf im Detail
 
-Ich habe die Angebote über passende Einstiegsseiten und Abläufe für Interessenten zugänglich gemacht:
+**Kontaktsegmentierung → zielgruppenspezifische E-Mails → passendes Angebot.**
 
-- **Studiovermietung:** Landingpage für das Mietangebot.
-- **Beats und Samples:** Verkaufsangebote für digitale Musikprodukte.
-- **Mixing und Mastering:** Buchungsmöglichkeit für die Bearbeitung von Musikproduktionen.
-- **Individuelle Songproduktion:** Eigene Funnels für Interessenten, die einen Song produzieren lassen möchten.
+Die zentrale Kontaktdatenbank unterscheidet Artists und Producer. Für beide Gruppen gibt es jeweils drei E-Mail-Workflows und passende Einstiege zu den Angeboten. Diese Aufteilung verbindet die Automatisierung mit den unterschiedlichen Anliegen der Kontakte.
 
-Die Angebote werden gezielt angesprochen, statt alle Kontakte durch denselben Verkaufsablauf zu führen.
+Die ergänzende Wissensbasis bündelt Unternehmenskontext für Claude. Automatische Aktualisierungen unterstützen den Überblick über Finanzen, Mitarbeitende und Studiovermietung; die gemeinsame Arbeitsumgebung unterstützt die operative Zusammenarbeit.
 
-## Zentrale Wissensbasis und Teamarbeit mit Claude
+## Ergebnis und Einblick
 
-Ich habe Claude mit einer zentralen, auf GitHub organisierten Wissensbasis für das Unternehmen eingerichtet. Automatische Aktualisierungen unterstützen den Überblick über Finanzen, Mitarbeitende und Studiovermietung.
+Eingerichtet sind die sechs E-Mail-Workflows, die beschriebenen Angebots- und Buchungsabläufe sowie die zentrale Wissens- und Arbeitsbasis. Der Beitrag liegt in ihrer Einrichtung und Verbindung. Umsatz-, Konversions- oder Zeitersparnisse sind hier nicht als Messreihe veröffentlicht.
 
-Ergänzend habe ich eine gemeinsame Arbeitsumgebung für das Team und die Arbeit von Praktikantinnen und Praktikanten eingerichtet. Die Wissensbasis bündelt den Unternehmenskontext für die Arbeit mit Claude; die Teamumgebung unterstützt die operative Zusammenarbeit.
+Im Gespräch kann ich einen ausgewählten Workflow mit seinen beteiligten Systemen, meinem Umsetzungsanteil und der Prüfung des Ablaufs erklären. Bei der Umsetzung nutze ich KI-Unterstützung. Kundenname, Kontaktdaten, interne Repositories und Workflow-Exporte bleiben privat.
 
-## Mein Schwerpunkt
-
-Mein Beitrag liegt in der Einrichtung und Verbindung dieser Abläufe: von Kontaktgewinnung und Segmentierung über Content und Verkaufsangebote bis zur internen Wissensorganisation. Bei der technischen Umsetzung nutze ich KI-Unterstützung, unter anderem Claude.
-
-Das Projekt zeigt meine praktische Arbeit an **Marketing-Automatisierung, digitalen Buchungs- und Verkaufsprozessen sowie KI-gestützter Zusammenarbeit**. Im Gespräch kann ich den Aufbau der sechs E-Mail-Workflows, die unterschiedlichen Funnels und die zentrale Wissensbasis erläutern.
-
-## Einen Ablauf gezielt besprechen
-
-Der Einstieg ist die Verbindung von **Kontaktsegmentierung → zielgruppenspezifischen E-Mails → passenden Angeboten**: Die zentrale Kontaktdatenbank unterscheidet Artists und Producer; für beide Zielgruppen wurden jeweils drei E-Mail-Workflows eingerichtet. Dazu kommen die beschriebenen Angebote für Studio, Beats, Samples und Musikproduktion.
-
-Das ist eine fachliche Übersicht, kein veröffentlichter Workflow-Export. Konkrete Auslöser, Versandbedingungen und Ausschlussregeln sind hier nicht dokumentiert. Im Gespräch kann ich an einem ausgewählten Workflow erklären, welche Systeme beteiligt sind, welchen Teil ich eingerichtet habe und wie der Ablauf geprüft wurde.
-
-## Was diese Fallstudie belegt
-
-Die Fallstudie dokumentiert den Umfang meiner beschriebenen Projektarbeit. Sie enthält keine veröffentlichte Messung zu Umsatzsteigerung, Konversion oder Zeitersparnis. Für eine technische Bewertung stehen daher zunächst Aufbau, Systemgrenzen und mein Beitrag im Vordergrund; interne Nachweise können nur nach Abstimmung gezeigt werden.
-
-**Veröffentlichungsumfang:** Diese Fallstudie beschreibt meine Projektarbeit. Kundennamen, Kontaktdaten, Finanzinformationen, interne Repositories und Workflow-Exporte bleiben privat.
-
-[Zurück zum Profil](https://github.com/haskallalk-eng) · [Doctor-K-Fallstudie](doctor-k.md) · [Kontakt](mailto:info@mindrails.de)
+[Zurück zum Profil](../README.md) · [Doctor-K-Fallstudie](doctor-k.md) · [Kontakt](mailto:info@mindrails.de)
