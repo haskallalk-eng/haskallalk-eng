@@ -20,13 +20,13 @@ Dieser Einstieg benötigt keine npm-Abhängigkeiten und keine Dienstzugänge. Er
 Voraussetzung für den nativen Lauf: **Node.js 24 oder neuer**. Getestet mit n8n **2.44.7** und Node.js **24.22.1**; die Versionsdaten stehen auch im Prüfbericht. Die Installation benötigt Internet; die Beispiele benötigen danach keine Shop- oder Versandzugänge. Im Repository-Stamm unter Linux/macOS:
 
 ```sh
-npm install --prefix .demo-tools --no-audit --no-fund n8n@2.44.7
-N8N_BIN="$PWD/.demo-tools/node_modules/.bin/n8n" npm run demo:n8n
+npm ci --prefix automation-demos/order-fulfilment/runtime --legacy-peer-deps --no-audit --no-fund
+N8N_BIN="$PWD/automation-demos/order-fulfilment/runtime/node_modules/.bin/n8n" npm run demo:n8n
 ```
 
 Der Prüflauf importiert den Workflow in eine temporäre, getrennte n8n-Datenbank und führt ihn zweimal über die n8n-CLI aus. Er prüft die tatsächlichen Knotenausgaben, Wiederholungszahlen und das Ledger der HTTP-Attrappe. Ein falsches Ergebnis beendet den Prüflauf mit Fehler. Eine bestehende n8n-Datenbank oder deren Zugangsdaten werden nicht verwendet.
 
-Der [gespeicherte Nachweis](verification.json) enthält die Ergebnisse des lokalen Prüflaufs vom 26. Oktober 2026; die CI wiederholt den nativen Test bei Änderungen. Die n8n-Version ist festgelegt; die Installation ist kein vollständig gesperrter transitiver Abhängigkeitsbaum.
+Der [gespeicherte Nachweis](verification.json) enthält die Ergebnisse des lokalen Prüflaufs vom 26. Oktober 2026; die CI wiederholt den nativen Test bei Änderungen. Die [Runtime-Konfiguration](runtime/package.json) und ihr [Lockfile](runtime/package-lock.json) legen n8n samt transitiven Paketversionen fest. `npm ci` verwendet diesen Abhängigkeitsbaum für lokale Läufe und CI. Wegen überlappender optionaler Peer-Anforderungen in den n8n-Paketen verwenden beide denselben Installationsmodus `--legacy-peer-deps`; anschließend prüft der native Lauf den importierten Workflow.
 
 ## Im n8n-Editor ansehen
 
