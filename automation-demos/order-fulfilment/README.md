@@ -17,7 +17,7 @@ Dieser Einstieg benötigt keine npm-Abhängigkeiten und keine Dienstzugänge. Er
 
 ## Den echten n8n-Workflow prüfen
 
-Getestet mit n8n **2.44.7**. Die Installation benötigt Internet; die Beispiele benötigen danach keine Shop- oder Versandzugänge. Im Repository-Stamm unter Linux/macOS:
+Voraussetzung für den nativen Lauf: **Node.js 24 oder neuer**. Getestet mit n8n **2.44.7** und Node.js **24.22.1**; die Versionsdaten stehen auch im Prüfbericht. Die Installation benötigt Internet; die Beispiele benötigen danach keine Shop- oder Versandzugänge. Im Repository-Stamm unter Linux/macOS:
 
 ```sh
 npm install --prefix .demo-tools --no-audit --no-fund n8n@2.44.7

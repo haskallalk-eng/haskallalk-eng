@@ -8,6 +8,7 @@ import { startMockApi } from './mock-api.mjs';
 import { makeWorkflow } from './build-workflow.mjs';
 import { assertResults } from './demo.mjs';
 
+if (Number(process.versions.node.split('.')[0]) < 24) throw new Error('The pinned n8n runtime requires Node.js 24 or newer. The dependency-free demo also supports Node.js 22.');
 const dir = mkdtempSync(join(tmpdir(), 'mindrails-n8n-'));
 const bin = process.env.N8N_BIN || 'n8n';
 const env = {
@@ -62,7 +63,7 @@ try {
     if (run === 2) assert.equal(results.filter(r => r.result === 'fulfilled').every(r => r.replayed === true), true);
     reports.push({ run, results, attemptsCumulative: state.attempts, newSyntheticLabelsTotal: state.purchases });
   }
-  const report = { n8nVersion: version, checkedAt: new Date().toISOString(), synthetic: true, runs: reports, limits: 'Local fixture HTTP service; no live shop, shipping provider, real labels or customer data.' };
+  const report = { n8nVersion: version, nodeVersion: process.versions.node, checkedAt: new Date().toISOString(), synthetic: true, runs: reports, limits: 'Local fixture HTTP service; no live shop, shipping provider, real labels or customer data.' };
   if (process.env.DEMO_REPORT) writeFileSync(process.env.DEMO_REPORT, JSON.stringify(report, null, 2) + '\n');
   console.log(JSON.stringify(report, null, 2));
 } finally { await api?.close(); rmSync(dir, { recursive: true, force: true }); }

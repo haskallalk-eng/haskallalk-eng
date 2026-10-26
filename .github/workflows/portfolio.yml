@@ -1,5 +1,8 @@
 name: Portfolio examples
-on: [push, pull_request]
+on:
+  push:
+    branches: [main]
+  pull_request:
 permissions:
   contents: read
 jobs:
@@ -20,7 +23,7 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
-          node-version: '22'
+          node-version: '24'
       - name: Install the pinned demonstration runtime
         run: npm install --prefix "$RUNNER_TEMP/n8n-runtime" --no-audit --no-fund n8n@2.44.7
       - name: Import and execute twice in an isolated n8n instance
