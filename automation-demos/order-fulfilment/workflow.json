@@ -1,0 +1,267 @@
+{
+  "name": "MindRails – synthetic order fulfilment and replay",
+  "nodes": [
+    {
+      "id": "manual",
+      "name": "Run synthetic examples",
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        0,
+        200
+      ],
+      "parameters": {}
+    },
+    {
+      "id": "fixtures",
+      "name": "Synthetic orders",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        220,
+        200
+      ],
+      "parameters": {
+        "mode": "runOnceForAllItems",
+        "jsCode": "return [\n  {\n    \"tenantId\": \"synthetic-shop\",\n    \"orderId\": \"DEMO-100\",\n    \"shipmentVersion\": 1,\n    \"paid\": true,\n    \"currency\": \"EUR\",\n    \"totalCents\": 1990,\n    \"items\": [\n      {\n        \"sku\": \"DEMO-SHAMPOO\",\n        \"quantity\": 1\n      }\n    ],\n    \"address\": {\n      \"country\": \"DE\",\n      \"postalCode\": \"10115\",\n      \"street\": \"Synthetische Testadresse 1\"\n    },\n    \"caseId\": \"happy\",\n    \"expected\": \"fulfilled\"\n  },\n  {\n    \"tenantId\": \"synthetic-shop\",\n    \"orderId\": \"DEMO-100\",\n    \"shipmentVersion\": 1,\n    \"paid\": true,\n    \"currency\": \"EUR\",\n    \"totalCents\": 1990,\n    \"items\": [\n      {\n        \"sku\": \"DEMO-SHAMPOO\",\n        \"quantity\": 1\n      }\n    ],\n    \"address\": {\n      \"country\": \"DE\",\n      \"postalCode\": \"10115\",\n      \"street\": \"Synthetische Testadresse 1\"\n    },\n    \"caseId\": \"duplicate\",\n    \"expected\": \"fulfilled\"\n  },\n  {\n    \"tenantId\": \"synthetic-shop\",\n    \"orderId\": \"DEMO-200\",\n    \"shipmentVersion\": 1,\n    \"paid\": true,\n    \"currency\": \"EUR\",\n    \"totalCents\": 1990,\n    \"items\": [\n      {\n        \"sku\": \"DEMO-SHAMPOO\",\n        \"quantity\": 1\n      }\n    ],\n    \"address\": {\n      \"country\": \"DE\",\n      \"postalCode\": \"10115\",\n      \"street\": \"Synthetische Testadresse 1\"\n    },\n    \"caseId\": \"lost-response\",\n    \"demoFault\": \"lost-response\",\n    \"expected\": \"fulfilled\"\n  },\n  {\n    \"tenantId\": \"synthetic-shop\",\n    \"orderId\": \"DEMO-300\",\n    \"shipmentVersion\": 1,\n    \"paid\": true,\n    \"currency\": \"EUR\",\n    \"totalCents\": 1990,\n    \"items\": [\n      {\n        \"sku\": \"DEMO-SHAMPOO\",\n        \"quantity\": 1\n      }\n    ],\n    \"address\": {\n      \"country\": \"DE\",\n      \"postalCode\": \"10115\",\n      \"street\": \"Synthetische Testadresse 1\"\n    },\n    \"caseId\": \"transient\",\n    \"demoFault\": \"transient\",\n    \"expected\": \"fulfilled\"\n  },\n  {\n    \"tenantId\": \"synthetic-shop\",\n    \"orderId\": \"DEMO-400\",\n    \"shipmentVersion\": 1,\n    \"paid\": true,\n    \"currency\": \"EUR\",\n    \"totalCents\": 1990,\n    \"items\": [\n      {\n        \"sku\": \"DEMO-SHAMPOO\",\n        \"quantity\": 1\n      }\n    ],\n    \"address\": {\n      \"country\": \"DE\",\n      \"postalCode\": \"10115\",\n      \"street\": \"Synthetische Testadresse 1\"\n    },\n    \"caseId\": \"permanent\",\n    \"demoFault\": \"permanent\",\n    \"expected\": \"manual_review\"\n  },\n  {\n    \"tenantId\": \"synthetic-shop\",\n    \"orderId\": \"DEMO-CONFLICT\",\n    \"shipmentVersion\": 1,\n    \"paid\": true,\n    \"currency\": \"EUR\",\n    \"totalCents\": 1990,\n    \"items\": [\n      {\n        \"sku\": \"DEMO-SHAMPOO\",\n        \"quantity\": 2\n      }\n    ],\n    \"address\": {\n      \"country\": \"DE\",\n      \"postalCode\": \"10115\",\n      \"street\": \"Synthetische Testadresse 1\"\n    },\n    \"caseId\": \"conflict\",\n    \"expected\": \"manual_review\"\n  },\n  {\n    \"tenantId\": \"synthetic-shop\",\n    \"orderId\": \"DEMO-500\",\n    \"shipmentVersion\": 1,\n    \"paid\": false,\n    \"currency\": \"EUR\",\n    \"totalCents\": 1990,\n    \"items\": [\n      {\n        \"sku\": \"DEMO-SHAMPOO\",\n        \"quantity\": 1\n      }\n    ],\n    \"address\": {\n      \"country\": \"DE\",\n      \"postalCode\": \"10115\",\n      \"street\": \"Synthetische Testadresse 1\"\n    },\n    \"caseId\": \"unpaid\",\n    \"expected\": \"rejected\"\n  },\n  {\n    \"tenantId\": \"synthetic-shop\",\n    \"orderId\": \"DEMO-600\",\n    \"shipmentVersion\": 1,\n    \"paid\": true,\n    \"currency\": \"EUR\",\n    \"totalCents\": 1990,\n    \"items\": [\n      {\n        \"sku\": \"DEMO-SHAMPOO\",\n        \"quantity\": 1\n      }\n    ],\n    \"address\": {\n      \"country\": \"DE\"\n    },\n    \"caseId\": \"invalid-address\",\n    \"expected\": \"rejected\"\n  }\n].map(json => ({ json }));"
+      }
+    },
+    {
+      "id": "validate",
+      "name": "Validate order",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        440,
+        200
+      ],
+      "parameters": {
+        "mode": "runOnceForAllItems",
+        "jsCode": "function validateOrder(event) {\n  const reject = (reason) => ({ caseId: event?.caseId ?? 'unknown', valid: false, reason });\n  if (!event || typeof event !== 'object') return reject('INVALID_EVENT');\n  for (const field of ['tenantId', 'orderId', 'caseId']) {\n    if (typeof event[field] !== 'string' || !/^[A-Za-z0-9_-]{1,60}$/.test(event[field])) return reject('INVALID_ID');\n  }\n  if (event.paid !== true) return reject('ORDER_NOT_PAID');\n  if (!Number.isSafeInteger(event.shipmentVersion) || event.shipmentVersion < 1) return reject('INVALID_SHIPMENT_VERSION');\n  if (event.currency !== 'EUR' || !Number.isSafeInteger(event.totalCents) || event.totalCents < 1) return reject('INVALID_AMOUNT');\n  if (!Array.isArray(event.items) || !event.items.length || event.items.length > 20) return reject('INVALID_ITEMS');\n  if (event.items.some(item => !item || typeof item.sku !== 'string' || !/^[A-Za-z0-9_-]{1,60}$/.test(item.sku) || !Number.isSafeInteger(item.quantity) || item.quantity < 1 || item.quantity > 100)) return reject('INVALID_ITEMS');\n  if (new Set(event.items.map(item => item.sku)).size !== event.items.length) return reject('DUPLICATE_SKU');\n  const address = event.address;\n  if (!address || address.country !== 'DE' || typeof address.postalCode !== 'string' || !/^\\d{5}$/.test(address.postalCode)\n    || typeof address.street !== 'string' || !address.street.trim() || address.street.length > 150) return reject('INVALID_ADDRESS');\n  if (!['none', 'lost-response', 'transient', 'permanent'].includes(event.demoFault ?? 'none')) return reject('INVALID_DEMO_FAULT');\n  // tenantId is a fixed fixture here. Production must derive it from authenticated ingress.\n  const request = {\n    tenantId: event.tenantId, orderId: event.orderId, shipmentVersion: event.shipmentVersion,\n    currency: event.currency, totalCents: event.totalCents, paid: true,\n    items: event.items.map(item => ({ sku: item.sku, quantity: item.quantity })).sort((a, b) => a.sku.localeCompare(b.sku)),\n    address: { country: address.country, postalCode: address.postalCode, street: address.street.trim() },\n    caseId: event.caseId, demoFault: event.demoFault ?? 'none',\n  };\n  return { caseId: event.caseId, valid: true, idempotencyKey: `${event.tenantId}:${event.orderId}:v${event.shipmentVersion}`, request };\n}\nreturn $input.all().map((item, index) => ({ json: validateOrder(item.json), pairedItem: { item: index } }));"
+      }
+    },
+    {
+      "id": "valid",
+      "name": "Order is valid",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.2,
+      "position": [
+        660,
+        200
+      ],
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 2
+          },
+          "conditions": [
+            {
+              "id": "valid-condition",
+              "leftValue": "={{ $json.valid }}",
+              "rightValue": true,
+              "operator": {
+                "type": "boolean",
+                "operation": "true",
+                "singleValue": true
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      }
+    },
+    {
+      "id": "one-order",
+      "name": "One order per retry boundary",
+      "type": "n8n-nodes-base.splitInBatches",
+      "typeVersion": 3,
+      "position": [
+        880,
+        100
+      ],
+      "parameters": {
+        "batchSize": 1,
+        "options": {}
+      }
+    },
+    {
+      "id": "http",
+      "name": "Create or replay synthetic fulfilment",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        1100,
+        100
+      ],
+      "retryOnFail": true,
+      "maxTries": 3,
+      "waitBetweenTries": 1000,
+      "onError": "continueRegularOutput",
+      "parameters": {
+        "method": "POST",
+        "url": "http://127.0.0.1:8787/fulfilments",
+        "sendHeaders": true,
+        "headerParameters": {
+          "parameters": [
+            {
+              "name": "Idempotency-Key",
+              "value": "={{ $json.idempotencyKey }}"
+            }
+          ]
+        },
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ $json.request }}",
+        "options": {
+          "timeout": 2000,
+          "response": {
+            "response": {
+              "fullResponse": true,
+              "responseFormat": "json"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "outcome",
+      "name": "Record outcome",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        1340,
+        100
+      ],
+      "parameters": {
+        "mode": "runOnceForEachItem",
+        "jsCode": "const source = $('Validate order').item.json;\nconst confirmed = $json.statusCode === 200 && $json.body?.synthetic === true && typeof $json.body?.labelId === 'string';\nreturn { json: { caseId: source.caseId, result: confirmed ? 'fulfilled' : 'manual_review', ...(confirmed ? { labelId: $json.body.labelId, replayed: $json.body.replayed } : { reason: 'NO_CONFIRMED_FULFILMENT' }), synthetic: true } };"
+      }
+    },
+    {
+      "id": "rejected",
+      "name": "Rejected before HTTP",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        900,
+        350
+      ],
+      "parameters": {
+        "mode": "runOnceForAllItems",
+        "jsCode": "return $input.all().map((item, index) => ({ json: { caseId: item.json.caseId, result: 'rejected', reason: item.json.reason, synthetic: true }, pairedItem: { item: index } }));"
+      }
+    },
+    {
+      "id": "note",
+      "name": "About this demonstration",
+      "type": "n8n-nodes-base.stickyNote",
+      "typeVersion": 1,
+      "position": [
+        0,
+        -100
+      ],
+      "parameters": {
+        "width": 680,
+        "height": 200,
+        "content": "## MindRails · n8n fulfilment reference\nEight synthetic cases. No shop login, real shipping label, email or customer data.\nStart the local fixture service first. Repeat execution to inspect replay behavior.\nThe mock API owns the durable demo ledger; n8n static data is not an idempotency lock.\nSee README for validation, limits and production requirements."
+      }
+    }
+  ],
+  "connections": {
+    "Run synthetic examples": {
+      "main": [
+        [
+          {
+            "node": "Synthetic orders",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Synthetic orders": {
+      "main": [
+        [
+          {
+            "node": "Validate order",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Validate order": {
+      "main": [
+        [
+          {
+            "node": "Order is valid",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Order is valid": {
+      "main": [
+        [
+          {
+            "node": "One order per retry boundary",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Rejected before HTTP",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "One order per retry boundary": {
+      "main": [
+        [],
+        [
+          {
+            "node": "Create or replay synthetic fulfilment",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Create or replay synthetic fulfilment": {
+      "main": [
+        [
+          {
+            "node": "Record outcome",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Record outcome": {
+      "main": [
+        [
+          {
+            "node": "One order per retry boundary",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "active": false,
+  "pinData": {},
+  "tags": []
+}

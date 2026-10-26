@@ -1,0 +1,13 @@
+{
+  "name": "hassieb-kalla-portfolio-examples",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test automation-demos/order-fulfilment/tests/*.test.mjs",
+    "demo": "node automation-demos/order-fulfilment/demo.mjs",
+    "demo:n8n": "node automation-demos/order-fulfilment/native-run.mjs",
+    "workflow:build": "node automation-demos/order-fulfilment/build-workflow.mjs",
+    "workflow:check": "node automation-demos/order-fulfilment/build-workflow.mjs --check"
+  },
+  "engines": { "node": ">=22" }
+}

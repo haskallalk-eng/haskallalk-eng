@@ -56,4 +56,6 @@ Geeignete Einblicke in interne Anwendungen können nach Abstimmung gezeigt werde
 
 **Veröffentlichungsumfang:** Projektbeschreibung aus eigener Arbeit; interner Quellcode und Kundendaten bleiben privat.
 
+**Öffentlich ausführbare Ergänzung:** Die [synthetische n8n-Arbeitsprobe](../automation-demos/order-fulfilment/README.md) demonstriert Bestellprüfung, Wiederholungen, Konflikte und eine lokale Versandattrappe. Sie wurde separat mit KI-Unterstützung erstellt und ist kein Export des Doctor-K-Systems. Ihre Tests belegen das Referenzbeispiel, nicht die interne Kundenimplementierung.
+
 [Zurück zum Profil](https://github.com/haskallalk-eng) · [Musik-Automation](music-automation.md) · [Kontakt](mailto:info@mindrails.de)
