@@ -1,0 +1,5 @@
+node_modules/
+.demo-tools/
+.demo-state/
+.env
+*.log

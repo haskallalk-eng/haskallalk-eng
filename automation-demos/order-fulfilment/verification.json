@@ -1,0 +1,140 @@
+{
+  "n8nVersion": "2.44.7",
+  "checkedAt": "2026-10-26T17:08:59.508Z",
+  "synthetic": true,
+  "runs": [
+    {
+      "run": 1,
+      "results": [
+        {
+          "caseId": "happy",
+          "result": "fulfilled",
+          "labelId": "SYNTHETIC-LABEL-1",
+          "replayed": false,
+          "synthetic": true
+        },
+        {
+          "caseId": "duplicate",
+          "result": "fulfilled",
+          "labelId": "SYNTHETIC-LABEL-1",
+          "replayed": true,
+          "synthetic": true
+        },
+        {
+          "caseId": "lost-response",
+          "result": "fulfilled",
+          "labelId": "SYNTHETIC-LABEL-2",
+          "replayed": true,
+          "synthetic": true
+        },
+        {
+          "caseId": "transient",
+          "result": "fulfilled",
+          "labelId": "SYNTHETIC-LABEL-3",
+          "replayed": false,
+          "synthetic": true
+        },
+        {
+          "caseId": "permanent",
+          "result": "manual_review",
+          "reason": "NO_CONFIRMED_FULFILMENT",
+          "synthetic": true
+        },
+        {
+          "caseId": "conflict",
+          "result": "manual_review",
+          "reason": "NO_CONFIRMED_FULFILMENT",
+          "synthetic": true
+        },
+        {
+          "caseId": "unpaid",
+          "result": "rejected",
+          "reason": "ORDER_NOT_PAID",
+          "synthetic": true
+        },
+        {
+          "caseId": "invalid-address",
+          "result": "rejected",
+          "reason": "INVALID_ADDRESS",
+          "synthetic": true
+        }
+      ],
+      "attemptsCumulative": {
+        "happy": 1,
+        "duplicate": 1,
+        "lost-response": 2,
+        "transient": 2,
+        "permanent": 3,
+        "conflict": 3
+      },
+      "newSyntheticLabelsTotal": 3
+    },
+    {
+      "run": 2,
+      "results": [
+        {
+          "caseId": "happy",
+          "result": "fulfilled",
+          "labelId": "SYNTHETIC-LABEL-1",
+          "replayed": true,
+          "synthetic": true
+        },
+        {
+          "caseId": "duplicate",
+          "result": "fulfilled",
+          "labelId": "SYNTHETIC-LABEL-1",
+          "replayed": true,
+          "synthetic": true
+        },
+        {
+          "caseId": "lost-response",
+          "result": "fulfilled",
+          "labelId": "SYNTHETIC-LABEL-2",
+          "replayed": true,
+          "synthetic": true
+        },
+        {
+          "caseId": "transient",
+          "result": "fulfilled",
+          "labelId": "SYNTHETIC-LABEL-3",
+          "replayed": true,
+          "synthetic": true
+        },
+        {
+          "caseId": "permanent",
+          "result": "manual_review",
+          "reason": "NO_CONFIRMED_FULFILMENT",
+          "synthetic": true
+        },
+        {
+          "caseId": "conflict",
+          "result": "manual_review",
+          "reason": "NO_CONFIRMED_FULFILMENT",
+          "synthetic": true
+        },
+        {
+          "caseId": "unpaid",
+          "result": "rejected",
+          "reason": "ORDER_NOT_PAID",
+          "synthetic": true
+        },
+        {
+          "caseId": "invalid-address",
+          "result": "rejected",
+          "reason": "INVALID_ADDRESS",
+          "synthetic": true
+        }
+      ],
+      "attemptsCumulative": {
+        "happy": 2,
+        "duplicate": 2,
+        "lost-response": 3,
+        "transient": 3,
+        "permanent": 6,
+        "conflict": 6
+      },
+      "newSyntheticLabelsTotal": 3
+    }
+  ],
+  "limits": "Local fixture HTTP service; no live shop, shipping provider, real labels or customer data."
+}
