@@ -1,61 +1,44 @@
-# Doctor K – E-Commerce und Prozessautomatisierung
+# Doctor K — E-Commerce und Prozessautomatisierung
+
 **Praxisprojekt von Hassieb Kalla · Shopify, n8n und betriebliche Integrationen**
 
-Für den familiennahen Handelsbetrieb hinter Doctor K habe ich Shopify, Kasse, Lager und wiederkehrende Kundenkommunikation miteinander verbunden. Ziel war, manuelle Arbeit zu reduzieren und Online- und Ladenverkäufe in zusammenhängenden Abläufen zu bearbeiten.
+Für den familiennahen Handelsbetrieb hinter Doctor K habe ich Online-Shop, Ladenverkauf und wiederkehrende Betriebsabläufe miteinander verbunden.
 
 ## Ausgangslage
-Online-Shop, Ladenverkauf, Versand und Kundenkommunikation sollten als zusammenhängender Prozess organisiert werden. Wiederkehrende manuelle Schritte waren der Ansatzpunkt für die Automatisierung.
+
+Online- und Ladenverkäufe sollten auf einen gemeinsamen Bestand zugreifen. Versand und Kundeninformation sollten als zusammenhängender Ablauf organisiert werden. Ein weiterer Ansatzpunkt waren bestehende E-Mail-Flows in Klaviyo.
 
 ## Mein Beitrag
-Mein Beitrag umfasst den Aufbau des Shopify-Shops, die Verbindung von Kasse und Bestand sowie interne Anwendungen und Automatisierungen. Bei der Entwicklung nutze ich KI-Unterstützung, unter anderem Claude Code. Ein Schwerpunkt war die Übertragung bestehender Klaviyo-Flows auf selbst gehostetes n8n.
 
-## Umsetzung
-| Bereich | Projektbeitrag |
+| Bereich | Umsetzung |
 | --- | --- |
-| E-Commerce | Shopify-Shop aufgebaut |
-| Kasse und Lager | Kassensystem und zentralen Bestand für Online- und Ladenverkäufe verbunden |
-| Interne Abläufe | Dashboard und interne Anwendung aufgebaut |
+| Verkauf und Bestand | Shopify-Shop aufgebaut, Kasse und zentralen Bestand für Online- und Ladenverkäufe verbunden |
 | Versand | Versandvorbereitung, Etiketten, Bestandsabbuchungen und E-Mails mit Sendungsverfolgung automatisiert |
-| E-Mail-Workflows | Bestehende Klaviyo-Flows auf selbst gehostetes n8n übertragen; geringere Plattformkosten waren ein Ziel der Umstellung |
-| Telefon | KI-Telefonassistent für Beratungsanfragen umgesetzt |
+| Kundenkommunikation | Bestehende Klaviyo-Flows auf selbst gehostetes n8n übertragen |
+| Interne Werkzeuge | Dashboard und interne Anwendung aufgebaut; KI-Telefonassistent für Beratungsanfragen umgesetzt |
 
-## Fachlicher Ablauf
-Vereinfachte Übersicht, kein technisches Deployment-Schema:
+## Der zusammenhängende Ablauf
 
 ```mermaid
 flowchart TD
-    A["Shopify: Online-Verkauf"] --> C["Zentraler Bestand und interne Abläufe"]
+    A["Shopify: Online-Verkauf"] --> C["Zentraler Bestand"]
     B["Kasse: Ladenverkauf"] --> C
     C --> D["Versandvorbereitung und Etiketten"]
     D --> E["Kundeninformation und Sendungsverfolgung"]
 ```
 
-Die Automatisierung verbindet einzelne Arbeitsschritte: Bestellungen, Bestandsveränderungen, Versand und Kundeninformation werden gemeinsam betrachtet. n8n übernimmt wiederkehrende E-Mail-Abläufe; der Telefonassistent ergänzt die Kundenkommunikation.
+Die Übersicht beschreibt den fachlichen Ablauf. Die technische Umsetzung muss zusätzlich mit Wiederholungen, fehlgeschlagenen Übertragungen und manueller Nacharbeit umgehen.
 
-## Ergebnis
+## Eine wichtige Entscheidung
 
-Online- und Ladenverkäufe sind über den zentralen Bestand verbunden. Versandvorbereitung, Etiketten und Kundeninformationen wurden in zusammenhängende Abläufe übertragen. Wiederkehrende E-Mail-Flows laufen über selbst gehostetes n8n.
+Die Klaviyo-Flows wurden auf selbst gehostetes n8n übertragen. Dadurch lassen sich E-Mail-Abläufe mit weiteren internen Prozessen verbinden. Geringere Plattformkosten waren ein Ziel; dem stehen Hosting, Wartung und Fehlerbehandlung gegenüber. Eine belastbare Kostenbewertung muss diese Aufgaben mit berücksichtigen.
 
-Der beschriebene Nutzen liegt in verbundenen Systemen und weniger einzeln auszuführenden Arbeitsschritten. Diese Fallstudie enthält keine veröffentlichte Vorher-nachher-Messung von Arbeitszeit oder Gesamtkosten; deshalb leite ich daraus keine bezifferte Einsparung ab.
+## Ergebnis und Einblick
 
-## Entscheidung und technische Abwägung
+Online- und Ladenverkäufe sind über den zentralen Bestand verbunden. Versandvorbereitung, Etiketten und Kundeninformationen wurden in zusammenhängende Abläufe übertragen; die wiederkehrenden E-Mail-Flows laufen über selbst gehostetes n8n. Eine Vorher-nachher-Messung von Zeitaufwand oder Gesamtkosten ist hier nicht veröffentlicht.
 
-Ein konkreter Teil der Umsetzung war die Übertragung bestehender Klaviyo-Flows auf selbst gehostetes n8n. Damit lassen sich E-Mail-Abläufe mit weiteren internen Prozessen verbinden. Zur Bewertung dieser Entscheidung gehören neben Plattformgebühren auch Hosting, Wartung und Fehlerbehandlung. Eine Gesamtkostenrechnung ist hier nicht veröffentlicht.
+Im Gespräch kann ich den Zusammenhang der Systeme, meinen Anteil an der Umsetzung und die Prüfung der migrierten Abläufe erläutern. Ich entwickle mit KI-Unterstützung. Interner Code, Konfigurationen und Kundendaten bleiben privat; geeignete Einblicke sind nach Abstimmung möglich.
 
-## Für ein technisches Gespräch
+Die separate [n8n-Arbeitsprobe](../automation-demos/order-fulfilment/walkthrough.md) macht Wiederholungen und verlorene HTTP-Antworten mit synthetischen Daten nachvollziehbar. Sie ist ein Referenzbeispiel, kein Export des Kundensystems.
 
-Anhand dieses Projekts lassen sich drei konkrete Fragen besprechen:
-
-- Wie hängen Verkauf, Bestandsänderung, Versandvorbereitung und Kundeninformation zusammen?
-- Welche Aufgaben habe ich beim Shop, bei der Verbindung der Systeme und bei der Migration der E-Mail-Flows übernommen?
-- Wie wurden die migrierten Abläufe geprüft, und wie werden Fehler oder manuelle Nacharbeiten erkannt?
-
-Diese Fragen sind ein Leitfaden für das Gespräch. Interne Konfigurationen, Abnahmeprotokolle und Fehlerbehandlung sind in diesem öffentlichen Repository nicht als Quellcode belegt.
-
-Geeignete Einblicke in interne Anwendungen können nach Abstimmung gezeigt werden.
-
-**Veröffentlichungsumfang:** Projektbeschreibung aus eigener Arbeit; interner Quellcode und Kundendaten bleiben privat.
-
-**Öffentlich ausführbare Ergänzung:** Die [synthetische n8n-Arbeitsprobe](../automation-demos/order-fulfilment/README.md) demonstriert Bestellprüfung, Wiederholungen, Konflikte und eine lokale Versandattrappe. Sie wurde separat mit KI-Unterstützung erstellt und ist kein Export des Doctor-K-Systems. Ihre Tests belegen das Referenzbeispiel, nicht die interne Kundenimplementierung.
-
-[Zurück zum Profil](https://github.com/haskallalk-eng) · [Musik-Automation](music-automation.md) · [Kontakt](mailto:info@mindrails.de)
+[Zurück zum Profil](../README.md) · [Musik-Automation](music-automation.md) · [Kontakt](mailto:info@mindrails.de)

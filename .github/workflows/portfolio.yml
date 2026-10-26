@@ -25,6 +25,6 @@ jobs:
         with:
           node-version: '24'
       - name: Install the pinned demonstration runtime
-        run: npm install --prefix "$RUNNER_TEMP/n8n-runtime" --no-audit --no-fund n8n@2.44.7
+        run: npm ci --prefix automation-demos/order-fulfilment/runtime --legacy-peer-deps --no-audit --no-fund
       - name: Import and execute twice in an isolated n8n instance
-        run: N8N_BIN="$RUNNER_TEMP/n8n-runtime/node_modules/.bin/n8n" npm run demo:n8n
+        run: N8N_BIN="$GITHUB_WORKSPACE/automation-demos/order-fulfilment/runtime/node_modules/.bin/n8n" npm run demo:n8n
